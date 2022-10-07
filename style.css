@@ -1,0 +1,584 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: monospace , sans-serif;
+    background-image: url(image/db.jpeg);
+    
+}
+
+/* navbar */
+.container {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    background-color: black;
+    
+    
+    
+}
+
+.container a {
+    border: 1px solid;
+   border-radius: 50px;
+    margin: 5px;
+    border-style: none;
+    padding: 1px;
+    
+}
+
+.container a:hover {
+    background-color: slateblue;
+    transition: 3s;
+    transform: scale(1.1);
+    text-align: center;
+}
+
+#one {
+    width: 70%;
+    height: 30%;
+}
+
+.gallery {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.gallery1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.gallery1 img {
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid white;
+    box-shadow: 1px 0px 20px 1px white;
+    border-radius: 50px;
+}
+
+.gallery img:hover {
+    transform: scale(1.4);
+    transition: 8s;
+}
+
+.nav-heading {
+    font-size: 5px;
+    margin: 50px auto;
+    box-shadow: 2px 2px 20px 10px white;
+    border: 1px solid white;
+    border-radius: 50px;
+    color: yellow;
+    font-weight: bold;
+    text-align: center;
+   text-transform: uppercase;
+   border-style: none;
+   padding: 6px;
+  
+    
+}
+
+.nav-heading:hover{
+    transition: 5s linear;
+    transform: scale(1.1);
+    background-color: navy;
+    color: white;
+}
+ 
+
+
+/* about me starts here */
+
+.about-me {
+    text-align: center;
+    font-size: 15px;
+    margin: 20px;
+    border: 1px solid white;
+    width: 90%;
+    box-shadow: 1px 0px 20px 1px white;
+    border-radius: 20px;
+    padding: 20px;
+    border-style: none;
+}
+
+.about-me h1 {
+    border: 1px solid white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgb(6, 6, 6);
+    color: #f3f7f9;
+    box-shadow: 1px 0px 20px 1px white;
+    border-style: none;
+}
+
+/* .about-me h1:hover {
+    background-color: snow;
+    color: slateblue;
+    transition: 3s;
+    transform: scale(1.1);
+    cursor: pointer;
+} */
+
+/* profile */
+
+
+.profile-desc {
+    text-align: center;
+    padding: 20px;
+    letter-spacing: 0.1em;
+    border: 1px solid rgb(212, 210, 210);
+    width: 90%;
+    margin: 60px 20px 20px 20px ;
+    box-shadow: 1px 0px 20px 1px white;
+    border-radius: 50px;
+    border-style: none;
+
+    
+}
+
+.profile-desc:hover {
+    transition: 3s;
+    transform: scale(1.1);
+}
+
+.profile-desc h1 {
+    color: grey;
+    margin-bottom: 10px;
+    
+}
+
+.profile-desc p {
+    font-style: italic;
+    color: rgb(217, 230, 230);
+}
+
+.bio {
+    background-color: black;
+}
+.myself {
+    border: 1px solid white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgb(5, 5, 5);
+    color: rgb(90, 90, 189);
+    box-shadow: 1px 0px 20px 1px white;
+    border-style: none;
+}
+
+/* .myself:hover {
+    background-color: snow;
+    color: slateblue;
+    transition: 3s;
+    transform: scale(1.1);
+} */
+
+
+.address {
+    background-color: rgb(7, 7, 7);
+    color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-shadow: 1px 0px 20px 1px white;
+}
+
+/* .address:hover {
+    background-color: teal;
+    transition: 3s;
+    color: white;
+    transform: scale(1.1);
+} */
+
+.email  {
+    background-color: rgb(7, 7, 7);
+    color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-decoration: none;
+    box-shadow: 1px 0px 20px 1px white;
+
+} 
+
+.email a {
+    text-decoration: none;
+}
+/* .email:hover {
+    background-color: slateblue;
+    transition: 5s;
+    transform: scale(1.1);
+} */
+
+/* .email a:hover {
+    color: white;
+    transition: 2s;
+} */
+.call {
+    background-color: rgb(7, 7, 7);
+    color: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    padding: 5px;
+    text-decoration: none;
+    box-shadow: 1px 0px 20px 1px white;
+    
+}
+
+/* .call:hover {
+    background-color: royalblue;
+    transition: 2s;
+    transform: scale(1.1);
+    
+} */
+
+.call a {
+    text-decoration: none;
+}
+
+/* .call a:hover {
+    color: white;
+    transition: 2s linear;
+} */
+
+
+/* about me emds here */
+
+/* skills */
+.skills-container {
+    padding-left: 45px;
+    
+}
+.skills-container li {
+   list-style: none;
+   font-weight: bolder;
+   margin: 30px 10px;
+   position: relative;
+   text-transform: uppercase;
+   text-align: center;
+   
+   
+   
+}
+
+.skills-container li::before{
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    width: 100%;
+    height: 5px;
+    left: 0;
+    background-color: rgb(86,86,153,.5);
+    border-radius: 10px;
+    
+ }
+
+
+.skills-container li::after{
+    content: '';
+    position: absolute;
+    top: calc(100% + 5px);
+    width: 0%;
+    height: 5px;
+    left: 0;
+    background-color: rgba(86, 86, 153, 0.461);
+    border-radius: 1000px;
+
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+ }
+
+
+
+
+
+
+
+
+.card {
+     border: 1px solid white;
+     width: 100%;
+    border-radius: 10px;
+     /* padding: 20px; */
+     /* margin: 20px; */
+     box-shadow: 1px 0px 20px 1px white;
+     
+     border-style: none;
+     background-color: black;
+     color: white;
+    
+    
+ }
+
+ /* .card:hover {
+     transform: scale(1.1);
+     transition: 7s;
+     background-color: white;
+     color: rgba(0, 0, 255, 0.577);
+ } */
+
+ .skills {
+     text-align: center;
+     border: 1px solid white;
+     box-shadow: 1px 0px 20px 1px white;
+     /* margin: 10px; */
+     width: 99%;
+     height: 20%;
+     border-radius: 20px;
+     text-transform: uppercase;
+     font-weight: bolder;
+     font-family: monospace, sans-serif;
+     letter-spacing: 0.1em;
+    padding-left: 20px;
+     
+ }
+
+ /* .skills:hover {
+     background-color: teal;
+     color: white;
+     transition: 10s;
+     transform: scale(1.1);
+ } */
+
+ /* skills ends here */
+
+
+ /* contact starts here */
+ .contact {
+     text-align: center;
+     margin-left: 18%;
+    padding-bottom: 40px;
+     width: 300px;
+     height: 20%;
+     border: 1px solid white;
+     border-radius: 50px;
+     box-shadow: 1px 0px 20px 1px white;
+     
+     
+     
+
+ }
+
+ .contact h2 {
+    text-align: center;
+    margin: 18%;
+   padding: 20px;
+    width: 180px;
+    color: #ffff00 ;
+    border: 1px solid white;
+    border-radius: 50px;
+    box-shadow: 1px 0px 20px 1px white;
+    background-color: rgba(255, 255, 255, 0.646);
+    border-style: none;
+    
+ }
+
+ .contact h2:hover {
+     background-color: steelblue;
+     color: teal;
+     transition: 5s linear;
+     transform: scale(1.1);
+ }
+
+ .contact input , textarea {
+     text-align: center;
+     margin: 10px;
+     padding: 5px;
+     text-transform: capitalize;
+     background-color: rgba(248, 246, 246, 0.269);
+     
+     
+ }
+.contact:hover{
+    transition: 10s;
+    transform: scale(1.1);
+    background-color: royalblue;
+    color: white;
+    
+}
+.contact input , textarea:hover {
+    transition: 10s;
+    transform: scale(1.1);
+    color: white;
+}
+
+.contact button {
+    color: white;
+    background-color: rgb(0, 128, 128);
+    margin: 10px;
+    width: 20%;
+    border-radius: 50px;
+}
+
+.contact button:hover{
+    background-color: rgba(0, 128, 128, 0.406);
+    transition: 4s;
+    color: snow;
+    transform: scale(1.1 );
+}
+
+.contact-links {
+    display: flexbox;
+    
+    margin: 50px auto;
+    text-align: center;
+    border: 1px solid white;
+    width: 70%;
+    border-style: none;
+    background-color: rgba(192, 192, 192, 0.098);
+    border-radius: 50px;
+    box-shadow: 1px 0px 20px 1px white;
+    border-style: none;
+   
+
+}
+
+.icons button {
+    margin: 10px;
+   
+
+    
+}
+
+.bi-github {
+    color: #6e5494;
+
+}
+.bi-github:hover {
+    background-color: white;
+}
+
+
+.bi-linkedin {
+    color: #00a0dc;
+}
+
+.bi-linkedin:hover {
+    background-color: white;
+}
+
+.bi-facebook {
+    color: #3B5998;
+   
+}
+.bi-facebook:hover {
+    background-color: white;
+}
+
+.bi-youtube {
+    color: #FF0000;
+}
+.bi-youtube:hover {
+    background-color: white;
+}
+
+.bi-instagram {
+    color: #8a3ab9;
+}
+.bi-instagram:hover {
+    background-color: #3F729B;
+}
+.bi-twitter {
+    color: #00ACEE;
+}
+
+.bi-twitter:hover {
+    background-color: white;
+}
+.btn:hover {
+    
+    transition: 2s linear;
+    transform: scale(1.3);
+
+}
+.btn {
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: white;
+    padding: 2px;
+    border-style: none;
+    margin: 10px;
+
+}
+/* contact ends here */
+
+/* footer */
+.footer {
+
+    
+    background-color: rgb(163, 17, 212);
+    color: white;
+    padding: 20px;
+    text-align: center;
+   padding-left: 180px;
+    
+    
+}
+
+
+.footer-menu a {
+    display: flexbox;
+    text-decoration: none;
+    margin: 5px;
+}
+
+.bi-heart-fill {
+    color: red;
+}
+
+.footer-desc {
+    font-size: 8px;
+    color: yellow;
+}
+
+.footer-menu a:hover {
+    color: grey;
+}
+
+/* project */
+
+.projects {
+    margin: 60px auto;
+    width: 80%;
+}
+
+.font-projects {
+    text-align: center;
+    border: 1px solid white;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.331);
+    color: #ffff00;    ;
+    box-shadow: 1px 0px 20px 1px white;
+    border-style: none;
+}
+
+.font-projects:hover {
+    background-color: snow;
+    color: slateblue;
+    transition: 3s;
+    transform: scale(1.1);
+}
