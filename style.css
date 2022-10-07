@@ -27,6 +27,11 @@ body {
     color: red;
 }
 
+.get {
+    background-color: red;
+    color: lime;
+}
+
 .container a {
     border: 1px solid;
    border-radius: 50px;
