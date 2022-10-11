@@ -8,6 +8,9 @@
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
 
+
+    
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
@@ -28,7 +31,52 @@
     <!-- navbar starts here -->
 
 
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    
+    <nav class="navbar navbar-expand-lg  fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#"> <span class="o">O</span>rlando Henna</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-start text-bg-light" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Orlando Henna</h5>
+            <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active"  href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-Me-id">About Me</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#services-id">Services</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery-id">Gallery</a>
+                
+              </li>
+                
+             
+            </ul>
+            
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+
+
+
+
+
+
+    <!-- <nav class="navbar navbar-expand-lg  fixed-top">
         <div class="container">
           <a class="navbar-brand" href="#"> <span class="o">O</span>rlando Henna</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,71 +95,28 @@
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#gallery-id">Gallery</a>
+                
               </li>
               <!-- <li class="nav-item">
                 <a class="nav-link" href="#contact-me">Contact Me</a>
               </li> -->
               
-            </ul>
+            <!-- </ul> -->
             <!-- <form class="d-flex mt-1 text=black" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-dark" type="submit">Search</button>
               </form> -->
-          </div>
+          <!-- </div>
         </div>
-      </nav>
-
-
-
-    <!-- <nav class="navbar navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Orlando Henna</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Orlando Henna</h5>
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Gallery</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Contact Me
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-dark">
-                    <li><a class="dropdown-item" href="mailto:ahmef2370@gmail.com">Email</a></li>
-                    <li><a class="dropdown-item" href="tel:4076660266">call</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="mailto:4076660266">text</a></li>
-                  </ul>
-                </li>
-              </ul>
-              <form class="d-flex mt-3" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-success" type="submit">Search</button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </nav>
-       -->
-      <!-- End Example Code -->
+      </nav> -->
 
 
 
 
-<!-- 
-    navbar ends here -->
+
+
+
+    <!-- navbar ends here -->
 
     <!-- Example Code -->
     
@@ -169,11 +174,28 @@
         <i class="bi bi-telephone-fill"></i>
       </a></p>
 
-      <p class="dir"> <a href="https://www.google.com/maps/place/Buena+Vista+Point+Apartments/@28.3915782,-81.5239125,14z/data=!3m1!4b1!4m5!3m4!1s0x88dd801a476c4ff5:0x7de52ce51269d65!8m2!3d28.3915416!4d-81.5064459" target="_blank">Get Direction</a></p>
+      <button class="dir"> <a href="https://www.google.com/maps/place/Buena+Vista+Point+Apartments/@28.3915782,-81.5239125,14z/data=!3m1!4b1!4m5!3m4!1s0x88dd801a476c4ff5:0x7de52ce51269d65!8m2!3d28.3915416!4d-81.5064459" target="_blank">Get Direction</a></button>
+
+      
+      
+
+     
+
+
 
     </div>
 
     <br>
+
+    <div>
+      <button class="dir"> <a href="https://g.page/r/CaOQPjq0cZ_9EB0/review" target="_blank">Write A Review</a></button>
+   </div>
+
+   <br>
+
+
+  
+    
 
     
     <div class="card">
@@ -240,6 +262,54 @@
         </div>
     </div>
 
+    <br>
+
+    <!-- myrecentworks -->
+
+    <h1>Updates</h1>
+    <br>
+
+    <div class="card mb-3" style="max-width: 1040px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="img/12.jpeg" class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444" dy=".3em"></text></svg>
+    
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">Wedding Henna</h5>
+            <p class="card-text">This is a wedding Henna Designed by Orlando Henna</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br>
+
+    <!-- Example Code -->
+    
+    <ul class="nav justify-content-center fixed-bottom">
+      
+      <button class="dir1"> <a href="https://www.google.com/maps/place/Buena+Vista+Point+Apartments/@28.3915782,-81.5239125,14z/data=!3m1!4b1!4m5!3m4!1s0x88dd801a476c4ff5:0x7de52ce51269d65!8m2!3d28.3915416!4d-81.5064459" target="_blank">
+        <i class="bi bi-arrow-right-circle-fill"> Get Direction</i>
+        </a></button>
+   
+
+      
+      <button class="dir1"> <a href="tel:4076660266" target="_blank">
+        <i class="bi bi-telephone-fill"> Call Now</i>
+      </a></button>
+      <button class="dir1"> <a href="https://g.page/r/CaOQPjq0cZ_9EB0/review" target="_blank">
+        
+        <i class="bi bi-star-fill"> Write A Review </i>
+        
+        </a></button>
+    </ul>
+    
+    <!-- End Example Code -->
+    
+
 
 
 <br>
@@ -282,6 +352,12 @@
 
 
 </div>
+
+
+
+
+
+
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3509.917942425784!2d-81.50863994859574!3d28.39154630161029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88dd801a476c4ff5%3A0x7de52ce51269d65!2sBuena%20Vista%20Point%20Apartments!5e0!3m2!1sen!2sus!4v1665108298790!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
